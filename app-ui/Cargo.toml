@@ -1,0 +1,15 @@
+[package]
+name = "adb-explorer-ui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+adb-explorer-common = { path = "../common" }
+adb-explorer-core = { path = "../explorer-core" }
+adb-explorer-queue = { path = "../queue" }
+adb-explorer-backend = { path = "../backend" }
+radb = { workspace = true }
+eframe = "0.29"
+chrono = "0.4"
+tokio = { workspace = true, features = ["full"] }
+anyhow = { workspace = true }

@@ -1,0 +1,9 @@
+[package]
+name = "adb-explorer-media-scanner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+adb-explorer-common = { path = "../common" }
+adb-explorer-backend = { path = "../backend" }
+anyhow = { workspace = true }

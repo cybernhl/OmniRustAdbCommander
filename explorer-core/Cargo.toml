@@ -1,0 +1,10 @@
+[package]
+name = "adb-explorer-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+adb-explorer-common = { path = "../common" }
+adb-explorer-backend = { path = "../backend" }
+serde = { workspace = true }
+anyhow = { workspace = true }

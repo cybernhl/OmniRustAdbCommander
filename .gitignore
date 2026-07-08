@@ -1,0 +1,52 @@
+# IDE & System
+.idea/
+*.iml
+*.iws
+.vscode/
+.DS_Store
+*.swp
+xcuserdata/
+.history/
+
+# Gradle & Kotlin Multiplatform
+.gradle/
+build/
+**/build/
+!src/**/build/
+.kotlin/
+kotlin-js-store/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+output.json
+
+# Rust / Cargo
+target/
+**/target/
+# Cargo.lock is usually tracked for applications, uncomment if you want to ignore it:
+# Cargo.lock
+
+# Native Binaries & Libraries (specifically for Rust/C++ artifacts)
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.lib
+*.a
+*.obj
+*.o
+*.exp
+
+# Xcode / iOS
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+DerivedData/
+
+# Node / JS
+node_modules/

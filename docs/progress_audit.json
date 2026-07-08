@@ -1,0 +1,76 @@
+{
+  "project": "adb-explorer",
+  "milestones": [
+    {
+      "id": "P1",
+      "name": "Backend Trait",
+      "status": "done",
+      "checklist": [
+        "DeviceBackend",
+        "MockBackend",
+        "Unit tests"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "ADB Backend",
+      "status": "done",
+      "checklist": [
+        "list_dir",
+        "stat"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Explorer",
+      "status": "done",
+      "checklist": [
+        "Cache",
+        "Selection",
+        "Filters"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Queue",
+      "status": "done",
+      "checklist": [
+        "Manager",
+        "Scheduler",
+        "Worker",
+        "Events"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Transfer",
+      "status": "done",
+      "checklist": [
+        "Push",
+        "Pull",
+        "Verify",
+        "MediaScan"
+      ]
+    },
+    {
+      "id": "P6",
+      "name": "Operations",
+      "status": "todo",
+      "checklist": [
+        "Rename",
+        "Delete",
+        "MkDir",
+        "Search"
+      ]
+    },
+    {
+      "id": "P7",
+      "name": "Plugin",
+      "status": "todo",
+      "checklist": [
+        "TC adapter",
+        "Library split"
+      ]
+    }
+  ]
+}

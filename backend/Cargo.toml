@@ -1,0 +1,14 @@
+[package]
+name = "adb-explorer-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+adb-explorer-common = { path = "../common" }
+radb = { workspace = true }
+anyhow = { workspace = true }
+async-trait = "0.1"
+windows-sys = { version = "0.48", features = ["Win32_Storage_FileSystem"] }
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["full"] }
